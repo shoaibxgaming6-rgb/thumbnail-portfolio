@@ -1,0 +1,1 @@
+const button=document.querySelector('.menu-toggle'),nav=document.querySelector('nav');button?.addEventListener('click',()=>{nav.classList.toggle('open');button.textContent=nav.classList.contains('open')?'Close':'Menu'});

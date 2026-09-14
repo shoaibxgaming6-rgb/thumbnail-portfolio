@@ -1,0 +1,10 @@
+/* Put your named JPGs in the thumbnails folder. They will replace these sample cards. */
+.project{background-position:center;background-size:cover}
+.project::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.65),rgba(0,0,0,.08));z-index:0}
+.project-one{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-1.jpg")}
+.project-two{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-2.jpg")}
+.project-three{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-3.jpg")}
+.project-four{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-4.jpg")}
+.project-five{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-5.jpg")}
+.project-six{background-image:linear-gradient(0deg,rgba(0,0,0,.35),rgba(0,0,0,.05)),url("thumbnail-6.jpg")}
+.project-four>*{position:relative;z-index:1}
